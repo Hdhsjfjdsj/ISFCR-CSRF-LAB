@@ -8,7 +8,7 @@ const router = Router();
 
 const defaultUsers: Record<string, { displayName: string; password: string }> = {
   alice: { displayName: 'Alice Johnson', password: 'seedalice' },
-  boby: { displayName: 'Boby Smith', password: 'seedboby' },
+  boby: { displayName: 'Boby Smith', password: 'seedboby' }, // pragma: allowlist secret
 };
 
 // Helper middleware to get current StaffHub user session
